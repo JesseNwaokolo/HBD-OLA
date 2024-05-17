@@ -1,11 +1,4 @@
-alert('Yayyyyyyy')
 
-let audio = document.querySelector('.music audio');
-
-window.addEventListener("click", () => {
-  audio.play();
-  
-});
 
 // Import the data to customize and insert them into page
 const fetchData = () => {
