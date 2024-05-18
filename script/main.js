@@ -306,7 +306,6 @@ const animationTimeline = () => {
 
 // Run fetch and animation in sequence
 window.addEventListener("click", event => {
-  alert('click anywhere on the page to start')
   const audio = document.querySelector("#audio");
   audio.volume = 0.2;
   audio.play();
